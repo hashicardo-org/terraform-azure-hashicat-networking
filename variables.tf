@@ -14,10 +14,10 @@ variable "address_space" {
 
 variable "vm_subnet_prefix" {
   description = "The address prefix to use for the VMs subnet."
-  default     = "10.0.10.0/24"
+  default     = "10.0.1.0/24"
 }
 
 variable "appgw_subnet_prefix" {
   description = "The address prefix to use for the AppGWs subnet."
-  default     = "10.0.11.0/24"
+  default     = "10.0.2.0/24"
 }
